@@ -41,12 +41,17 @@ digraph {
     Then basics again: https://bitcoin.org/en/how-it-works"
   ]
 
-  read_whats_blockchain_anyway -> how_bitcoin_is_bootstrapped
+  read_whats_blockchain_anyway -> welcome_to_crypto
+
+  welcome_to_crypto[
+    shape="oval"
+    label="Welcome to crypto.
+    Go back to the yes path."
+  ]
 
   # back to how bitcoin is boostrapped
   how_bitcoin_is_bootstraped -> take_coursera_bitcoin_course[label="no"]
   how_bitcoin_is_bootstraped -> do_you_know_the_different_algorithms[label="yes"]
-
 
   take_coursera_bitcoin_course[
     shape="box",
