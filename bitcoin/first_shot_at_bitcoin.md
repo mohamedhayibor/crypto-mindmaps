@@ -1,0 +1,74 @@
+digraph {
+  dont_get_it[
+    shape="box",
+    style=rounded,
+    label="Bitcoin articles are getting more confusing to you or making you feel lost."
+  ]
+
+  dont_get_it -> do_you_understand_bitcoin
+
+  # No structure in reading articles | no basics
+
+  do_you_understand_bitcoin[
+    shape="diamond",
+    label="Do you have a decent understanding
+    of Bitcoin?"
+  ]
+
+  do_you_understand_bitcoin -> how_bitcoin_is_bootstraped[label="yes"]
+  do_you_understand_bitcoin -> read_the_white_paper[label="no"]
+
+  how_bitcoin_is_bootstraped[
+    shape="diamond",
+    label="Do you have an idea of how Bitcoin was
+    bootstrapped or why it hasn't fail so far"
+  ]
+
+  read_the_white_paper[
+    shape="box"
+    label="The white-paper is a must read:
+    https://bitcoin.org/bitcoin.pdf
+    Read it a couple times. Did you have any idea
+    of what Satoshi is talking about?"
+  ]
+
+  read_the_white_paper -> read_whats_blockchain_anyway
+
+  read_whats_blockchain_anyway[
+    shape="box",
+    label="Read one of the best explanation of a blockchain:
+    https://coincenter.org/entry/what-is-blockchain-anyway
+    Then basics again: https://bitcoin.org/en/how-it-works"
+  ]
+
+  read_whats_blockchain_anyway -> how_bitcoin_is_bootstrapped
+
+  # back to how bitcoin is boostrapped
+  how_bitcoin_is_bootstraped -> take_coursera_bitcoin_course[label="no"]
+  how_bitcoin_is_bootstraped -> do_you_know_the_different_algorithms[label="yes"]
+
+
+  take_coursera_bitcoin_course[
+    shape="box",
+    label="Take coursera's bitcoin course:
+    https://www.coursera.org/learn/cryptocurrency
+    "
+  ]
+
+  do_you_know_the_different_algorithms[
+    shape="box"
+    label="Play with Sha256 and read about
+    the gist of private keys
+    POW (proof of work)"
+  ]
+
+  do_you_know_the_different_algorithms -> learn_about_ethereum
+
+  learn_about_ethereum[
+    shape="box"
+    label="Start reading about Ethereum and other cryptocurrencies
+    You'll have fun thinking about the implications of the new crypto
+    innovations. Contribute fixes to this. Bring it closer to perfect."
+  ]
+
+}
