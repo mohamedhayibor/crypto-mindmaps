@@ -78,7 +78,7 @@
 <title>do_you_know_the_different_algorithms</title>
 <polygon fill="none" stroke="#000000" points="510.0061,-137.9117 309.6326,-137.9117 309.6326,-87.9117 510.0061,-87.9117 510.0061,-137.9117"/>
 <text text-anchor="middle" x="409.8193" y="-122.7117" font-family="Times,serif" font-size="14.00" fill="#000000">Play with Sha256 and read about</text>
-<text text-anchor="middle" x="409.8193" y="-108.7117" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;the gist of private keys</text>
+<text text-anchor="middle" x="409.8193" y="-108.7117" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;the gist of private keys and</text>
 <text text-anchor="middle" x="409.8193" y="-94.7117" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;POW (proof of work)</text>
 </g>
 <!-- how_bitcoin_is_bootstraped&#45;&gt;do_you_know_the_different_algorithms -->

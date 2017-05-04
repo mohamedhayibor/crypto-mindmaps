@@ -63,7 +63,7 @@ digraph {
   do_you_know_the_different_algorithms[
     shape="box"
     label="Play with Sha256 and read about
-    the gist of private keys
+    the gist of private keys and
     POW (proof of work)"
   ]
 
