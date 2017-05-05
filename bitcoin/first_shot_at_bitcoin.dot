@@ -15,8 +15,8 @@ digraph {
     of Bitcoin?"
   ]
 
-  do_you_understand_bitcoin -> how_bitcoin_is_bootstraped[label="yes"]
-  do_you_understand_bitcoin -> read_the_white_paper[label="no"]
+  do_you_understand_bitcoin -> how_bitcoin_is_bootstraped[label="yes" color="blue"]
+  do_you_understand_bitcoin -> read_the_white_paper[label="no" color="red"]
 
   how_bitcoin_is_bootstraped[
     shape="diamond",
@@ -50,8 +50,8 @@ digraph {
   ]
 
   # back to how bitcoin is boostrapped
-  how_bitcoin_is_bootstraped -> take_coursera_bitcoin_course[label="no"]
-  how_bitcoin_is_bootstraped -> do_you_know_the_different_algorithms[label="yes"]
+  how_bitcoin_is_bootstraped -> take_coursera_bitcoin_course[label="no" color="red"]
+  how_bitcoin_is_bootstraped -> do_you_know_the_different_algorithms[label="yes" color="blue"]
 
   take_coursera_bitcoin_course[
     shape="box",

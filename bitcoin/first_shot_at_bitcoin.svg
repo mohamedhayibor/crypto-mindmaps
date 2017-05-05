@@ -38,8 +38,8 @@
 <!-- do_you_understand_bitcoin&#45;&gt;how_bitcoin_is_bootstraped -->
 <g id="edge2" class="edge">
 <title>do_you_understand_bitcoin&#45;&gt;how_bitcoin_is_bootstraped</title>
-<path fill="none" stroke="#000000" d="M527.2729,-317.6158C497.4333,-299.8575 458.7717,-276.8492 427.2268,-258.0761"/>
-<polygon fill="#000000" stroke="#000000" points="428.9148,-255.0078 418.5314,-252.9013 425.3349,-261.0232 428.9148,-255.0078"/>
+<path fill="none" stroke="#0000ff" d="M527.2729,-317.6158C497.4333,-299.8575 458.7717,-276.8492 427.2268,-258.0761"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="428.9148,-255.0078 418.5314,-252.9013 425.3349,-261.0232 428.9148,-255.0078"/>
 <text text-anchor="middle" x="488.1504" y="-280.7117" font-family="Times,serif" font-size="14.00" fill="#000000">yes</text>
 </g>
 <!-- read_the_white_paper -->
@@ -54,8 +54,8 @@
 <!-- do_you_understand_bitcoin&#45;&gt;read_the_white_paper -->
 <g id="edge3" class="edge">
 <title>do_you_understand_bitcoin&#45;&gt;read_the_white_paper</title>
-<path fill="none" stroke="#000000" d="M622.5977,-317.6158C650.9403,-300.8304 687.2031,-279.3543 717.8606,-261.1979"/>
-<polygon fill="#000000" stroke="#000000" points="719.9418,-264.0332 726.7626,-255.9259 716.3748,-258.0102 719.9418,-264.0332"/>
+<path fill="none" stroke="#ff0000" d="M622.5977,-317.6158C650.9403,-300.8304 687.2031,-279.3543 717.8606,-261.1979"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="719.9418,-264.0332 726.7626,-255.9259 716.3748,-258.0102 719.9418,-264.0332"/>
 <text text-anchor="middle" x="691.8193" y="-280.7117" font-family="Times,serif" font-size="14.00" fill="#000000">no</text>
 </g>
 <!-- take_coursera_bitcoin_course -->
@@ -69,8 +69,8 @@
 <!-- how_bitcoin_is_bootstraped&#45;&gt;take_coursera_bitcoin_course -->
 <g id="edge6" class="edge">
 <title>how_bitcoin_is_bootstraped&#45;&gt;take_coursera_bitcoin_course</title>
-<path fill="none" stroke="#000000" d="M313.2947,-195.9017C280.4791,-179.6404 239.1631,-159.1669 205.7792,-142.6239"/>
-<polygon fill="#000000" stroke="#000000" points="207.1014,-139.373 196.5872,-138.069 203.9933,-145.6452 207.1014,-139.373"/>
+<path fill="none" stroke="#ff0000" d="M313.2947,-195.9017C280.4791,-179.6404 239.1631,-159.1669 205.7792,-142.6239"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="207.1014,-139.373 196.5872,-138.069 203.9933,-145.6452 207.1014,-139.373"/>
 <text text-anchor="middle" x="264.8193" y="-158.7117" font-family="Times,serif" font-size="14.00" fill="#000000">no</text>
 </g>
 <!-- do_you_know_the_different_algorithms -->
@@ -84,8 +84,8 @@
 <!-- how_bitcoin_is_bootstraped&#45;&gt;do_you_know_the_different_algorithms -->
 <g id="edge7" class="edge">
 <title>how_bitcoin_is_bootstraped&#45;&gt;do_you_know_the_different_algorithms</title>
-<path fill="none" stroke="#000000" d="M382.2563,-189.3991C387.0079,-176.2134 392.4274,-161.1743 397.1962,-147.9409"/>
-<polygon fill="#000000" stroke="#000000" points="400.5967,-148.8282 400.6942,-138.2339 394.0112,-146.4551 400.5967,-148.8282"/>
+<path fill="none" stroke="#0000ff" d="M382.2563,-189.3991C387.0079,-176.2134 392.4274,-161.1743 397.1962,-147.9409"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="400.5967,-148.8282 400.6942,-138.2339 394.0112,-146.4551 400.5967,-148.8282"/>
 <text text-anchor="middle" x="403.1504" y="-158.7117" font-family="Times,serif" font-size="14.00" fill="#000000">yes</text>
 </g>
 <!-- read_whats_blockchain_anyway -->
