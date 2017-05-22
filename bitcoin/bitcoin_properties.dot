@@ -1,0 +1,97 @@
+digraph {
+  bitcoin[
+    shape="doubleoctagon",
+    style=rounded,
+    label="What is Bitcoin"
+  ]
+
+  bitcoin -> { digital_currency payment_network valuable }
+
+  digital_currency[
+    shape="box",
+    label="First battle tested digital currency"
+  ]
+
+  payment_network[
+    shape="box",
+    label="Global Payment Network"
+  ]
+
+  valuable[
+    shape="box",
+    style=rounded,
+    label="what primarily makes it valuable?"
+  ]
+
+  valuable -> { scarce useful }
+
+  scarce[
+    shape="box",
+    style=rounded,
+    label="Scarce"
+  ]
+
+  useful[
+    shape="box",
+    style=rounded,
+    label="Useful"
+  ]
+
+  payment_network -> scaling_human_communication
+
+  scaling_human_communication[
+    shape="box",
+    style=rounded,
+    label="Drastically scale monetary
+communication between humans"
+  ]
+
+  digital_currency -> bitcoin_properties;
+
+  bitcoin_properties[
+    shape="box",
+    style=rounded,
+    label="bitcoin properties"
+  ]
+
+  bitcoin_properties -> { scarcity divisible no_double_spend free_market secure }
+
+  scarcity[
+    shape="box",
+    style=rounded,
+    label="Never more than 21 million coins"
+  ]
+
+  divisible[
+    shape="box",
+    style=rounded,
+    label="Homogeneous, every bitcoin is equal.
+Extremely portable and divisible
+by a 100 million. You could control
+zillions worth by memorizing a private key.
+Add to that they don't decay (durable)"
+  ]
+
+  no_double_spend[
+    shape="box",
+    style=rounded,
+    label="Hard to counterfeit.
+Nodes will reject any transactions
+that could be a double spend"
+  ]
+
+  free_market[
+    shape="box",
+    style=rounded,
+    label="As there no centralized entity
+controlling the price. You can buy a bitcoin
+(or some portions) at an exchange
+at the current market price"
+  ]
+
+  secure[
+    shape="box",
+    label="Transactions are secured by PKC
+public key cryptography."
+  ]
+}

@@ -1,0 +1,145 @@
+digraph {
+  cryptography[
+    shape="doubleoctagon",
+    style=rounded,
+    label="Cryptography"
+  ]
+
+  cryptography -> complexity;
+
+  complexity[
+    shape="box",
+    style=rounded,
+    label="Manipulating computational complexity"
+  ]
+
+  complexity -> why
+  complexity -> popular_methods
+  complexity -> data_structures
+
+  why[
+    shape="box",
+    style=rounded,
+    label="Why?"
+  ]
+
+  why -> security
+  why -> privacy
+  why -> obfuscation
+
+  security[
+    shape="box",
+    style=rounded,
+    label="Security"
+  ]
+
+  privacy[
+    shape="box",
+    style=rounded,
+    label="Privacy"
+  ]
+
+  obfuscation[
+    shape="box",
+    style=rounded,
+    label="Obfuscation
+a.k.a
+Steganography"
+  ]
+
+  popular_methods[
+    shape="box",
+    style=rounded,
+    label="Popular methods"
+  ]
+
+  popular_methods -> hashing
+  popular_methods -> encryption
+  popular_methods -> time_locks
+  popular_methods -> signing
+
+  hashing[
+    shape="box",
+    style=rounded,
+    label="Hashing"
+  ]
+
+  encryption[
+    shape="box",
+    style=rounded,
+    label="Encryption"
+  ]
+
+  time_locks[
+    shape="box",
+    style=rounded,
+    label="Timelocks"
+  ]
+
+  signing[
+    shape="box",
+    style=rounded,
+    label="Signing transactions
+to prove that you were the
+author or involved in a
+particular action"
+  ]
+
+  encryption -> symetric
+  encryption -> asymetric
+
+  symetric[
+    shape="box",
+    style=rounded,
+    label="Symetric"
+  ]
+
+  asymetric[
+    shape="box",
+    style=rounded,
+    label="Asymetric"
+  ]
+
+  asymetric -> elliptic
+  asymetric -> isogenies
+
+  elliptic[
+    shape="box",
+    style=rounded,
+    label="ECC aka Elliptic Curve Cryptography"
+  ]
+
+  isogenies[
+    shape="box",
+    style=rounded,
+    label="Isogenies"
+  ]
+
+  data_structures[
+    shape="box",
+    style=rounded,
+    label="Data Structures"
+  ]
+
+  data_structures -> merkle
+  data_structures -> dag
+  data_structures -> blockchain
+
+  merkle[
+    shape="box",
+    style=rounded,
+    label="Merkle trees,... anything merkle"
+  ]
+
+  dag[
+    shape="box",
+    style=rounded,
+    label="DAG aka Directed Acyclic Graph"
+  ]
+
+  blockchain[
+    shape="box",
+    style=rounded,
+    label="Blockchain: linked blocks forming a chain"
+  ]
+}
